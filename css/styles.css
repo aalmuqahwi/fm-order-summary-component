@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(225deg, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.container {
+  width: 450px;
+  background: white;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+.container img {
+  border-radius: inherit;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.container .content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 10px 50px;
+  text-align: center;
+}
+.container .content .title h2 {
+  color: hsl(223deg, 47%, 23%);
+  font-weight: 900;
+}
+.container .content .description p {
+  color: hsl(224deg, 23%, 55%);
+}
+.container .content .plan {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  background: hsl(225deg, 100%, 98%);
+  padding: 15px;
+  border-radius: 8px;
+}
+.container .content .plan > div:nth-child(2) {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .content .plan > div:nth-child(2) strong {
+  color: hsl(223deg, 47%, 23%);
+}
+.container .content .plan > div:nth-child(2) span {
+  color: hsl(224deg, 23%, 55%);
+}
+.container .content .plan > div:nth-child(2) button {
+  border: none;
+  background: none;
+  color: hsl(223deg, 47%, 23%);
+  font-weight: 600;
+  text-decoration: underline;
+}
+.container .content .actions {
+  display: flex;
+  padding-bottom: 15px;
+  gap: 15px;
+  flex-direction: column;
+}
+.container .content .actions button:first-child {
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  background-color: hsl(245deg, 75%, 52%);
+}
+.container .content .actions button:last-child {
+  border: none;
+  background: none;
+  color: hsl(224deg, 23%, 55%);
+  font-weight: 700;
+}
