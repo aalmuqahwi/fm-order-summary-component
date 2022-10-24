@@ -72,7 +72,7 @@ body {
 .container .content .actions {
   display: flex;
   padding-bottom: 15px;
-  gap: 15px;
+  gap: 20px;
   flex-direction: column;
 }
 .container .content .actions button:first-child {
@@ -82,10 +82,11 @@ body {
   color: white;
   font-weight: 700;
   background-color: hsl(245deg, 75%, 52%);
+  box-shadow: 0 5px 25px 0 hsl(224deg, 23%, 55%);
 }
 .container .content .actions button:last-child {
   border: none;
   background: none;
   color: hsl(224deg, 23%, 55%);
-  font-weight: 700;
+  font-weight: 800;
 }

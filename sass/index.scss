@@ -93,7 +93,7 @@ body {
     .actions {
       display: flex;
       padding-bottom: 15px;
-      gap: 15px;
+      gap: 20px;
       flex-direction: column;
 
       & button:first-child {
@@ -103,13 +103,14 @@ body {
         color: white;
         font-weight: 700;
         background-color: $bright-blue;
+        box-shadow: 0 5px 25px 0 $desaturated-blue;
       }
 
       & button:last-child {
         border: none;
         background: none;
         color: $desaturated-blue;
-        font-weight: 700;
+        font-weight: 800;
       }
     } // actions
   }
