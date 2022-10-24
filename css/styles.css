@@ -69,6 +69,11 @@ body {
   font-weight: 600;
   text-decoration: underline;
 }
+.container .content .plan > div:nth-child(2) button:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: hsl(224deg, 23%, 55%);
+}
 .container .content .actions {
   display: flex;
   padding-bottom: 15px;
@@ -84,9 +89,17 @@ body {
   background-color: hsl(245deg, 75%, 52%);
   box-shadow: 0 5px 25px 0 hsl(224deg, 23%, 55%);
 }
+.container .content .actions button:first-child:hover {
+  cursor: pointer;
+  background-color: rgba(56, 41, 224, 0.8);
+}
 .container .content .actions button:last-child {
   border: none;
   background: none;
   color: hsl(224deg, 23%, 55%);
   font-weight: 800;
+}
+.container .content .actions button:last-child:hover {
+  cursor: pointer;
+  color: hsl(223deg, 47%, 23%);
 }
