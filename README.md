@@ -1,12 +1,42 @@
-# SASS Gulp Template
+# Frontend Mentor - Order summary card solution
 
-This repository contains a very basic setup to use SASS with HTML by using gulp.
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-<br />
+## Table of contents
 
-## How to use
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-- Click on `Use this template` and create a new repository.
-- Clone the newly created repository.
-- Open the terminal and install the dependencies by typing `npm install`.
-- Run the dev script `npm run dev`.
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- See hover states for interactive elements
+
+### Screenshot
+
+Desktop
+
+![](/images/fm_order_summary_component_desktop.png)
+
+Mobile
+
+![](/images/fm_order_summary_component_mobile.png)
+
+## My process
+
+### Built with
+
+- SASS
+- Flexbox
+- Mobile-first workflow
+
+## Author
+
+- Frontend Mentor - [@aalmuqahwi](https://www.frontendmentor.io/profile/aalmuqahwi)

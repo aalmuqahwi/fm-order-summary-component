@@ -39,7 +39,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  padding: 10px 50px;
+  padding: 15px 50px;
   text-align: center;
 }
 .container .content .title h2 {
