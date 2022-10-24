@@ -7,6 +7,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
@@ -28,6 +29,11 @@ Desktop
 Mobile
 
 ![](/images/fm_order_summary_component_mobile.png)
+
+### Links
+
+- Solution URL: [click here](https://www.frontendmentor.io/solutions/order-summary-component-using-sass-and-html-HdY6W8KKoU)
+- Live Site URL: [click here](https://aalmuqahwi.github.io/fm-order-summary-component/)
 
 ## My process
 
